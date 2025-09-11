@@ -48,6 +48,10 @@ module.exports = {
             name: 'main_window',
             config: 'vite.renderer.config.mjs',
           },
+          {
+            name: 'screenshot_window',
+            config: 'vite.renderer-screenshot.config.mjs',
+          },
         ],
       },
     },
